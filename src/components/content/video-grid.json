@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_video_grids",
+  "info": {
+    "displayName": "Video grid",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "videos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.video"
+    }
+  }
+}

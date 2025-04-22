@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_captioned_screenshots",
+  "info": {
+    "displayName": "Captioned screenshots",
+    "icon": "monitor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "caption": {
+      "type": "blocks"
+    },
+    "screenshots": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

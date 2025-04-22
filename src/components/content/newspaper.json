@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_content_newspapers",
+  "info": {
+    "displayName": "Newspaper",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "paragraphs": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

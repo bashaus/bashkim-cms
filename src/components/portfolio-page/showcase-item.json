@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_portfolio_page_showcase_item",
+  "info": {
+    "displayName": "Showcase Item",
+    "icon": "slideshow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "caption": {
+      "type": "blocks"
+    },
+    "caseStudy": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::case-study.case-study"
+    }
+  }
+}

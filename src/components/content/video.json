@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_content_videos",
+  "info": { "displayName": "Video", "icon": "play", "description": "" },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "source": {
+      "type": "customField",
+      "customField": "plugin::oembed.oembed"
+    },
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

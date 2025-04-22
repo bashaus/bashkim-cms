@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_captioned_magazines",
+  "info": {
+    "displayName": "Captioned magazine",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "caption": {
+      "type": "blocks"
+    },
+    "pages": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

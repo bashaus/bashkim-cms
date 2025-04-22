@@ -1,0 +1,48 @@
+{
+  "name": "@bashkim-com/strapi-cms",
+  "version": "0.0.0",
+  "license": "MIT",
+  "types": "./types",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "prepare": "husky || true",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "5.17.0",
+    "@strapi/plugin-users-permissions": "5.17.0",
+    "@strapi/provider-upload-aws-s3": "5.17.0",
+    "@strapi/strapi": "5.17.0",
+    "@strapi/utils": "5.17.0",
+    "better-sqlite3": "11.3.0",
+    "fs-extra": "^10.0.0",
+    "mime-types": "^2.1.27",
+    "pg": "^8.15.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "strapi-plugin-oembed": "^2.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "husky": "^9.1.7",
+    "prettier": "3.5.3",
+    "sort-package-json": "^3.0.0",
+    "typescript": "^5"
+  },
+  "strapi": {
+    "uuid": "0ab3bddc-2c79-44b2-8912-445334990e8d"
+  }
+}

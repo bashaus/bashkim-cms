@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "graphql.vscode-graphql",
+    "mikestead.dotenv"
+  ]
+}

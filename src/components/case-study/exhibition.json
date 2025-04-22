@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_case_study_exhibitions",
+  "info": {
+    "displayName": "Exhibition",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "openingDate": {
+      "type": "date",
+      "required": true
+    },
+    "closingDate": {
+      "type": "date"
+    },
+    "caption": {
+      "type": "blocks"
+    }
+  }
+}

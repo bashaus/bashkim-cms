@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_tweet_grids",
+  "info": {
+    "displayName": "Tweet grid",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "tweets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.tweet",
+      "required": true
+    }
+  }
+}

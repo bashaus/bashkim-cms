@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_case_study_accolade_awards",
+  "info": {
+    "displayName": "Accolade award",
+    "icon": "shirt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "place": {
+      "type": "enumeration",
+      "enum": ["gold", "silver", "bronze", "honour", "shortlist"],
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.git/
+.strapi/
+.tmp/
+dist/
+graphql/
+types/
+node_modules/
+public/uploads/
+!public/uploads/.gitkeep
+
+.env
+.strapi-updater.json
+Dockerfile

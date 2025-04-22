@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_captioned_videos",
+  "info": {
+    "displayName": "Captioned video",
+    "icon": "quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "caption": {
+      "type": "blocks"
+    },
+    "video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.video"
+    }
+  }
+}

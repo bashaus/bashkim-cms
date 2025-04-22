@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "peers",
+  "info": {
+    "singularName": "peer",
+    "pluralName": "peers",
+    "displayName": "Peer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": false,
+      "regex": "^https?://"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_content_full_texts",
+  "info": {
+    "displayName": "Full text",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

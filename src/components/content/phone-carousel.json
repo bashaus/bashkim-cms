@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_phone_carousels",
+  "info": {
+    "displayName": "Phone carousel",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "frame": {
+      "type": "enumeration",
+      "enum": ["Smartphone", "FeaturePhone"],
+      "default": "Smartphone",
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": ["images"]
+    }
+  }
+}

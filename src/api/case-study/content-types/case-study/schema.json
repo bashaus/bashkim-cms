@@ -1,0 +1,138 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "singularName": "case-study",
+    "pluralName": "case-studies",
+    "displayName": "Case study",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "maxLength": 160
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": true
+    },
+    "imageIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "imagePoster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "imageHeaderDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "imageHeaderMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "infoBrief": {
+      "type": "string"
+    },
+    "infoStrategy": {
+      "type": "string"
+    },
+    "infoImplementation": {
+      "type": "string"
+    },
+    "infoDeliverables": {
+      "type": "blocks"
+    },
+    "infoClient": {
+      "type": "string"
+    },
+    "infoAgency": {
+      "type": "string"
+    },
+    "infoInstitution": {
+      "type": "string"
+    },
+    "infoDegree": {
+      "type": "string"
+    },
+    "infoRole": {
+      "type": "string"
+    },
+    "infoMarkets": {
+      "type": "blocks"
+    },
+    "infoTargetAudiences": {
+      "type": "blocks"
+    },
+    "infoLaunchedOn": {
+      "type": "date",
+      "required": true
+    },
+    "infoDecommissionedOn": {
+      "type": "date"
+    },
+    "infoOutcomes": {
+      "type": "blocks"
+    },
+    "technologies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology.technology"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "content.captioned-image",
+        "content.captioned-magazine",
+        "content.captioned-screenshots",
+        "content.captioned-video",
+        "content.full-text",
+        "content.image-carousel",
+        "content.newspaper",
+        "content.phone-carousel",
+        "content.subtitle",
+        "content.tweet-grid",
+        "content.video-grid"
+      ]
+    },
+    "exhibitions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "case-study.exhibition"
+    },
+    "accolades": {
+      "type": "component",
+      "repeatable": true,
+      "component": "case-study.accolades"
+    },
+    "collaborators": {
+      "type": "component",
+      "repeatable": true,
+      "component": "case-study.collaborator"
+    }
+  }
+}

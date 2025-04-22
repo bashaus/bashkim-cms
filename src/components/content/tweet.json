@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_content_tweets",
+  "info": { "displayName": "Tweet", "icon": "twitter", "description": "" },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "source": {
+      "type": "customField",
+      "customField": "plugin::oembed.oembed"
+    }
+  }
+}

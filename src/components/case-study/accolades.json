@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_case_study_accolades",
+  "info": {
+    "displayName": "Accolades",
+    "icon": "shirt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "caption": {
+      "type": "blocks"
+    },
+    "awardedOn": {
+      "type": "date"
+    },
+    "awards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "case-study.accolade-award",
+      "required": true
+    }
+  }
+}
